@@ -1,0 +1,456 @@
+{
+  "uid" : "aaebb56ea911df29",
+  "name" : "вход через кнопку в форме восстановления пароля.",
+  "fullName" : "tests.LoginTest.loginThroughResetPasswordFormLoginButtonSuccess",
+  "historyId" : "8a158afee63875ec2ea4fcb7c9c91adc",
+  "time" : {
+    "start" : 1744815268796,
+    "stop" : 1744815274530,
+    "duration" : 5734
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создаем пользователя: models.User@4cd8fa1c",
+      "time" : {
+        "start" : 1744815270148,
+        "stop" : 1744815270373,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "models.User@4cd8fa1c"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие страницы восстановления пароля",
+      "time" : {
+        "start" : 1744815270379,
+        "stop" : 1744815272529,
+        "duration" : 2150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Нажимаем на кнопку Войти",
+      "time" : {
+        "start" : 1744815272529,
+        "stop" : 1744815272635,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Нажатие на элемент с локатором: By.xpath: //a[text()='Войти']",
+        "time" : {
+          "start" : 1744815272529,
+          "stop" : 1744815272635,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание, что элемент станет кликабельным: By.xpath: //a[text()='Войти']",
+          "time" : {
+            "start" : 1744815272530,
+            "stop" : 1744815272572,
+            "duration" : 42
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //a[text()='Войти']"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //a[text()='Войти']"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание перехода на URL: https://stellarburgers.nomoreparties.site/login",
+      "time" : {
+        "start" : 1744815272636,
+        "stop" : 1744815272646,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedUrl",
+        "value" : "https://stellarburgers.nomoreparties.site/login"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Логин пользователя через форму",
+      "time" : {
+        "start" : 1744815272646,
+        "stop" : 1744815273187,
+        "duration" : 541
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вводим Email",
+        "time" : {
+          "start" : 1744815272646,
+          "stop" : 1744815272942,
+          "duration" : 296
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод текста 'user64f451cb-9ca7-4e95-b916-c15cdbf3f2781744815270147silva.roob@gmail.com' в элемент с локатором: By.xpath: .//div[label[text()='Email']]//input",
+          "time" : {
+            "start" : 1744815272647,
+            "stop" : 1744815272942,
+            "duration" : 295
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ожидание появления элемента с локатором: By.xpath: .//div[label[text()='Email']]//input",
+            "time" : {
+              "start" : 1744815272647,
+              "stop" : 1744815272671,
+              "duration" : 24
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.xpath: .//div[label[text()='Email']]//input"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: .//div[label[text()='Email']]//input"
+          }, {
+            "name" : "text",
+            "value" : "user64f451cb-9ca7-4e95-b916-c15cdbf3f2781744815270147silva.roob@gmail.com"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "user64f451cb-9ca7-4e95-b916-c15cdbf3f2781744815270147silva.roob@gmail.com"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Вводим Пароль",
+        "time" : {
+          "start" : 1744815272943,
+          "stop" : 1744815273040,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод текста '2jq6hv' в элемент с локатором: By.xpath: .//div[label[text()='Пароль']]//input",
+          "time" : {
+            "start" : 1744815272943,
+            "stop" : 1744815273040,
+            "duration" : 97
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ожидание появления элемента с локатором: By.xpath: .//div[label[text()='Пароль']]//input",
+            "time" : {
+              "start" : 1744815272943,
+              "stop" : 1744815272966,
+              "duration" : 23
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.xpath: .//div[label[text()='Пароль']]//input"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: .//div[label[text()='Пароль']]//input"
+          }, {
+            "name" : "text",
+            "value" : "2jq6hv"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "2jq6hv"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Клик по кнопке Войти",
+        "time" : {
+          "start" : 1744815273040,
+          "stop" : 1744815273186,
+          "duration" : 146
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Нажатие на элемент с локатором: By.xpath: .//button[text()='Войти']",
+          "time" : {
+            "start" : 1744815273041,
+            "stop" : 1744815273186,
+            "duration" : 145
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ожидание, что элемент станет кликабельным: By.xpath: .//button[text()='Войти']",
+            "time" : {
+              "start" : 1744815273041,
+              "stop" : 1744815273083,
+              "duration" : 42
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.xpath: .//button[text()='Войти']"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: .//button[text()='Войти']"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "models.User@4cd8fa1c"
+      } ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание перехода на URL: https://stellarburgers.nomoreparties.site/",
+      "time" : {
+        "start" : 1744815273187,
+        "stop" : 1744815273701,
+        "duration" : 514
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedUrl",
+        "value" : "https://stellarburgers.nomoreparties.site/"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка видимости кнопки «Оформить заказ»",
+      "time" : {
+        "start" : 1744815273702,
+        "stop" : 1744815273721,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверка видимости элемента с локатором: By.xpath: //button[normalize-space(text())='Оформить заказ']",
+        "time" : {
+          "start" : 1744815273702,
+          "stop" : 1744815273721,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание появления элемента с локатором: By.xpath: //button[normalize-space(text())='Оформить заказ']",
+          "time" : {
+            "start" : 1744815273702,
+            "stop" : 1744815273721,
+            "duration" : 19
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //button[normalize-space(text())='Оформить заказ']"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //button[normalize-space(text())='Оформить заказ']"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Очищаем данные пользователя: io.restassured.internal.RestAssuredResponseImpl@27b8daa1",
+      "time" : {
+        "start" : 1744815273721,
+        "stop" : 1744815274401,
+        "duration" : 680
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удаляем пользователя с токеном: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZmZjNGE2OWVkMjgwMDAxYjVjN2JkOSIsImlhdCI6MTc0NDgxNTI3MCwiZXhwIjoxNzQ0ODE2NDcwfQ.z8nYRH56Ve6J4MPopXLFyUPV-QKrBLoc8uPQ3_8caQk",
+        "time" : {
+          "start" : 1744815273738,
+          "stop" : 1744815274401,
+          "duration" : 663
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "accessToken",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZmZjNGE2OWVkMjgwMDAxYjVjN2JkOSIsImlhdCI6MTc0NDgxNTI3MCwiZXhwIjoxNzQ0ODE2NDcwfQ.z8nYRH56Ve6J4MPopXLFyUPV-QKrBLoc8uPQ3_8caQk"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@27b8daa1"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginThroughResetPasswordFormLoginButtonSuccess"
+  }, {
+    "name" : "suite",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Andrej.local"
+  }, {
+    "name" : "thread",
+    "value" : "96779@MacBook-Pro-Andrej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aaebb56ea911df29.json",
+  "parameterValues" : [ ]
+}

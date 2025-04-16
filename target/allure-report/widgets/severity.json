@@ -1,0 +1,131 @@
+[ {
+  "uid" : "639a9c5eaf6868cd",
+  "name" : "Переход в раздел 'Начинки'",
+  "time" : {
+    "start" : 1744815238489,
+    "stop" : 1744815249191,
+    "duration" : 10702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9fc30cbdadb57ca",
+  "name" : "Переход в раздел 'Булки'",
+  "time" : {
+    "start" : 1744815249359,
+    "stop" : 1744815254763,
+    "duration" : 5404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca12797d688dc68c",
+  "name" : "Вход через кнопку в форме регистрации",
+  "time" : {
+    "start" : 1744815278956,
+    "stop" : 1744815283268,
+    "duration" : 4312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9179c7367e70b639",
+  "name" : "Переход в личный кабинет",
+  "time" : {
+    "start" : 1744815294189,
+    "stop" : 1744815299422,
+    "duration" : 5233
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59ed6800875060da",
+  "name" : "Переход в раздел 'Соусы'",
+  "time" : {
+    "start" : 1744815254771,
+    "stop" : 1744815258547,
+    "duration" : 3776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bfba6251ee7353e",
+  "name" : "Вход по кнопке «Войти в аккаунт» на главной",
+  "time" : {
+    "start" : 1744815274537,
+    "stop" : 1744815278954,
+    "duration" : 4417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75e89e18b1ead410",
+  "name" : "Переход из личного кабинета по клику на конструктор",
+  "time" : {
+    "start" : 1744815299427,
+    "stop" : 1744815304726,
+    "duration" : 5299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8df44352c819ec4c",
+  "name" : "Вход через кнопку «Личный кабинет»",
+  "time" : {
+    "start" : 1744815283272,
+    "stop" : 1744815287935,
+    "duration" : 4663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74ab052265952418",
+  "name" : "Тест успешной регистрации",
+  "time" : {
+    "start" : 1744815258565,
+    "stop" : 1744815265310,
+    "duration" : 6745
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20c52298eacbe120",
+  "name" : "выход по кнопке «Выход» в личном кабинете.",
+  "time" : {
+    "start" : 1744815287939,
+    "stop" : 1744815294184,
+    "duration" : 6245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3c9009dea21e27b",
+  "name" : "Переход из личного кабинета по клику на логотип 'stellar burgers'",
+  "time" : {
+    "start" : 1744815304729,
+    "stop" : 1744815309943,
+    "duration" : 5214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5545939b035267af",
+  "name" : "Негативная регистрация с коротким паролем",
+  "time" : {
+    "start" : 1744815265313,
+    "stop" : 1744815268786,
+    "duration" : 3473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aaebb56ea911df29",
+  "name" : "вход через кнопку в форме восстановления пароля.",
+  "time" : {
+    "start" : 1744815268796,
+    "stop" : 1744815274530,
+    "duration" : 5734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

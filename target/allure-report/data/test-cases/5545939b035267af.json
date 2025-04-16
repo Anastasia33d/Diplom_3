@@ -1,0 +1,369 @@
+{
+  "uid" : "5545939b035267af",
+  "name" : "Негативная регистрация с коротким паролем",
+  "fullName" : "tests.RegistrationTest.registerNewUserWithShortPasswordFail",
+  "historyId" : "84180093b374c3e304955541a46ca2a3",
+  "time" : {
+    "start" : 1744815265313,
+    "stop" : 1744815268786,
+    "duration" : 3473
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие страницы регистрации",
+      "time" : {
+        "start" : 1744815265314,
+        "stop" : 1744815268103,
+        "duration" : 2789
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открытие страницы регистрации",
+        "time" : {
+          "start" : 1744815266805,
+          "stop" : 1744815268103,
+          "duration" : 1298
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы регистрации",
+      "time" : {
+        "start" : 1744815268103,
+        "stop" : 1744815268571,
+        "duration" : 468
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вводим Имя",
+        "time" : {
+          "start" : 1744815268103,
+          "stop" : 1744815268350,
+          "duration" : 247
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод текста 'Silvana3af6961c-66e0-424d-a2ac-64491a1eecef1744815265313' в элемент с локатором: By.xpath: //label[text()='Имя']/../input",
+          "time" : {
+            "start" : 1744815268104,
+            "stop" : 1744815268350,
+            "duration" : 246
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ожидание появления элемента с локатором: By.xpath: //label[text()='Имя']/../input",
+            "time" : {
+              "start" : 1744815268104,
+              "stop" : 1744815268131,
+              "duration" : 27
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.xpath: //label[text()='Имя']/../input"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //label[text()='Имя']/../input"
+          }, {
+            "name" : "text",
+            "value" : "Silvana3af6961c-66e0-424d-a2ac-64491a1eecef1744815265313"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : "Silvana3af6961c-66e0-424d-a2ac-64491a1eecef1744815265313"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Вводим Email",
+        "time" : {
+          "start" : 1744815268350,
+          "stop" : 1744815268494,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод текста 'user3af6961c-66e0-424d-a2ac-64491a1eecef1744815265313youlanda.terry@gmail.com' в элемент с локатором: By.xpath: //label[text()='Email']/../input",
+          "time" : {
+            "start" : 1744815268350,
+            "stop" : 1744815268494,
+            "duration" : 144
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ожидание появления элемента с локатором: By.xpath: //label[text()='Email']/../input",
+            "time" : {
+              "start" : 1744815268350,
+              "stop" : 1744815268372,
+              "duration" : 22
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.xpath: //label[text()='Email']/../input"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //label[text()='Email']/../input"
+          }, {
+            "name" : "text",
+            "value" : "user3af6961c-66e0-424d-a2ac-64491a1eecef1744815265313youlanda.terry@gmail.com"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "user3af6961c-66e0-424d-a2ac-64491a1eecef1744815265313youlanda.terry@gmail.com"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Вводим Пароль",
+        "time" : {
+          "start" : 1744815268495,
+          "stop" : 1744815268571,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод текста 'abc' в элемент с локатором: By.xpath: //label[text()='Пароль']/../input",
+          "time" : {
+            "start" : 1744815268495,
+            "stop" : 1744815268571,
+            "duration" : 76
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ожидание появления элемента с локатором: By.xpath: //label[text()='Пароль']/../input",
+            "time" : {
+              "start" : 1744815268495,
+              "stop" : 1744815268513,
+              "duration" : 18
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.xpath: //label[text()='Пароль']/../input"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //label[text()='Пароль']/../input"
+          }, {
+            "name" : "text",
+            "value" : "abc"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "abc"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "models.User@7c8f8206"
+      } ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажимаем на кнопку Зарегистрироваться",
+      "time" : {
+        "start" : 1744815268571,
+        "stop" : 1744815268660,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Нажатие на элемент с локатором: By.xpath: .//button[text()='Зарегистрироваться']",
+        "time" : {
+          "start" : 1744815268571,
+          "stop" : 1744815268660,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание, что элемент станет кликабельным: By.xpath: .//button[text()='Зарегистрироваться']",
+          "time" : {
+            "start" : 1744815268572,
+            "stop" : 1744815268595,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: .//button[text()='Зарегистрироваться']"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: .//button[text()='Зарегистрироваться']"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об ошибке короткого пароля",
+      "time" : {
+        "start" : 1744815268661,
+        "stop" : 1744815268690,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Очищаем данные пользователя: null",
+      "time" : {
+        "start" : 1744815268690,
+        "stop" : 1744815268690,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerNewUserWithShortPasswordFail"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Andrej.local"
+  }, {
+    "name" : "thread",
+    "value" : "96779@MacBook-Pro-Andrej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5545939b035267af.json",
+  "parameterValues" : [ ]
+}
