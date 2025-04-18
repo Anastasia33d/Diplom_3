@@ -12,12 +12,12 @@ public class WebDriverFactory {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
                 WebDriver chromeDriver = new ChromeDriver();
-                chromeDriver.manage().window().fullscreen();
+                chromeDriver.manage().window().maximize();
                 return chromeDriver;
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
                 WebDriver firefoxDriver = new FirefoxDriver();
-                firefoxDriver.manage().window().fullscreen();;
+                firefoxDriver.manage().window().maximize();;
                 return firefoxDriver;
             default:
                 throw new IllegalArgumentException("Unsupported browser: " + browser);

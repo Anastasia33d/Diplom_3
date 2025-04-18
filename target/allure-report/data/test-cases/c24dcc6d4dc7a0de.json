@@ -1,12 +1,12 @@
 {
-  "uid" : "639a9c5eaf6868cd",
-  "name" : "Переход в раздел 'Начинки'",
-  "fullName" : "tests.MainPageTest.testToppingsSectionVisible",
-  "historyId" : "28d52e37720c93f57f2ab9ea56274066",
+  "uid" : "c24dcc6d4dc7a0de",
+  "name" : "Переход в раздел 'Соусы'",
+  "fullName" : "tests.MainPageTest.testSaucesSectionVisible",
+  "historyId" : "6f7fd42b4f5dd1c27ccef3fcd374e943",
   "time" : {
-    "start" : 1744815238489,
-    "stop" : 1744815249191,
-    "duration" : 10702
+    "start" : 1744973559936,
+    "stop" : 1744973563528,
+    "duration" : 3592
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,18 +15,18 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Создаем пользователя: models.User@56a9b662",
+      "name" : "Создаем пользователя: User(email=userbeab12b7-3cb6-4f41-818d-e7dd83e574541744973561459gladys.hane@yahoo.com, password=pjqdzq, name=Lizabethbeab12b7-3cb6-4f41-818d-e7dd83e574541744973561459)",
       "time" : {
-        "start" : 1744815242626,
-        "stop" : 1744815245281,
-        "duration" : 2655
+        "start" : 1744973561460,
+        "stop" : 1744973561677,
+        "duration" : 217
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user",
-        "value" : "models.User@56a9b662"
+        "value" : "User(email=userbeab12b7-3cb6-4f41-818d-e7dd83e574541744973561459gladys.hane@yahoo.com, password=pjqdzq, name=Lizabethbeab12b7-3cb6-4f41-818d-e7dd83e574541744973561459)"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -35,9 +35,9 @@
     }, {
       "name" : "Открытие главной страницы",
       "time" : {
-        "start" : 1744815245312,
-        "stop" : 1744815246180,
-        "duration" : 868
+        "start" : 1744973561677,
+        "stop" : 1744973562556,
+        "duration" : 879
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,34 +48,34 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Клик по табу «Начинки»",
+      "name" : "Клик по табу «Соусы»",
       "time" : {
-        "start" : 1744815246190,
-        "stop" : 1744815246537,
-        "duration" : 347
+        "start" : 1744973562557,
+        "stop" : 1744973562641,
+        "duration" : 84
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Нажатие на элемент с локатором: By.xpath: //div[span[text()='Начинки']]",
+        "name" : "Нажатие на элемент с локатором: By.xpath: //div[span[text()='Соусы']]",
         "time" : {
-          "start" : 1744815246194,
-          "stop" : 1744815246537,
-          "duration" : 343
+          "start" : 1744973562557,
+          "stop" : 1744973562641,
+          "duration" : 84
         },
         "status" : "passed",
         "steps" : [ {
-          "name" : "Ожидание, что элемент станет кликабельным: By.xpath: //div[span[text()='Начинки']]",
+          "name" : "Ожидание, что элемент станет кликабельным: By.xpath: //div[span[text()='Соусы']]",
           "time" : {
-            "start" : 1744815246195,
-            "stop" : 1744815246410,
-            "duration" : 215
+            "start" : 1744973562557,
+            "stop" : 1744973562592,
+            "duration" : 35
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "locator",
-            "value" : "By.xpath: //div[span[text()='Начинки']]"
+            "value" : "By.xpath: //div[span[text()='Соусы']]"
           } ],
           "stepsCount" : 0,
           "attachmentsCount" : 0,
@@ -85,7 +85,7 @@
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "locator",
-          "value" : "By.xpath: //div[span[text()='Начинки']]"
+          "value" : "By.xpath: //div[span[text()='Соусы']]"
         } ],
         "stepsCount" : 1,
         "attachmentsCount" : 0,
@@ -99,11 +99,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "Проверка, что таб «Начинки» активен",
+      "name" : "Проверка, что таб «Соусы» активен",
       "time" : {
-        "start" : 1744815246537,
-        "stop" : 1744815246573,
-        "duration" : 36
+        "start" : 1744973562641,
+        "stop" : 1744973562656,
+        "duration" : 15
       },
       "status" : "passed",
       "steps" : [ ],
@@ -114,34 +114,34 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Проверка видимости заголовка «Начинки»",
+      "name" : "Проверка видимости заголовка «Соусы»",
       "time" : {
-        "start" : 1744815246573,
-        "stop" : 1744815246616,
-        "duration" : 43
+        "start" : 1744973562656,
+        "stop" : 1744973562675,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Проверка видимости элемента с локатором: By.xpath: //h2[text()='Начинки']",
+        "name" : "Проверка видимости элемента с локатором: By.xpath: //h2[text()='Соусы']",
         "time" : {
-          "start" : 1744815246574,
-          "stop" : 1744815246616,
-          "duration" : 42
+          "start" : 1744973562656,
+          "stop" : 1744973562675,
+          "duration" : 19
         },
         "status" : "passed",
         "steps" : [ {
-          "name" : "Ожидание появления элемента с локатором: By.xpath: //h2[text()='Начинки']",
+          "name" : "Ожидание появления элемента с локатором: By.xpath: //h2[text()='Соусы']",
           "time" : {
-            "start" : 1744815246575,
-            "stop" : 1744815246616,
-            "duration" : 41
+            "start" : 1744973562657,
+            "stop" : 1744973562675,
+            "duration" : 18
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "locator",
-            "value" : "By.xpath: //h2[text()='Начинки']"
+            "value" : "By.xpath: //h2[text()='Соусы']"
           } ],
           "stepsCount" : 0,
           "attachmentsCount" : 0,
@@ -151,7 +151,7 @@
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "locator",
-          "value" : "By.xpath: //h2[text()='Начинки']"
+          "value" : "By.xpath: //h2[text()='Соусы']"
         } ],
         "stepsCount" : 1,
         "attachmentsCount" : 0,
@@ -165,26 +165,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "Очищаем данные пользователя: io.restassured.internal.RestAssuredResponseImpl@2c59b9f4",
+      "name" : "Очищаем данные пользователя: io.restassured.internal.RestAssuredResponseImpl@29400267",
       "time" : {
-        "start" : 1744815246617,
-        "stop" : 1744815248946,
-        "duration" : 2329
+        "start" : 1744973562675,
+        "stop" : 1744973563401,
+        "duration" : 726
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Удаляем пользователя с токеном: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZmZjNDhkOWVkMjgwMDAxYjVjN2JjZCIsImlhdCI6MTc0NDgxNTI0NSwiZXhwIjoxNzQ0ODE2NDQ1fQ.5r961Nz_5bYA9s4bCAp5iVsSbdTISZASh_03LGpS_eg",
+        "name" : "Удаляем пользователя с токеном: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MDIyZWY5OWVkMjgwMDAxYjVjYjgyNyIsImlhdCI6MTc0NDk3MzU2MSwiZXhwIjoxNzQ0OTc0NzYxfQ.NeQOinEWvPYNEy8Rvb-60KZvN2dp5pbv9fqfehHWiIc",
         "time" : {
-          "start" : 1744815248228,
-          "stop" : 1744815248946,
-          "duration" : 718
+          "start" : 1744973562688,
+          "stop" : 1744973563401,
+          "duration" : 713
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "accessToken",
-          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZmZjNDhkOWVkMjgwMDAxYjVjN2JjZCIsImlhdCI6MTc0NDgxNTI0NSwiZXhwIjoxNzQ0ODE2NDQ1fQ.5r961Nz_5bYA9s4bCAp5iVsSbdTISZASh_03LGpS_eg"
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MDIyZWY5OWVkMjgwMDAxYjVjYjgyNyIsImlhdCI6MTc0NDk3MzU2MSwiZXhwIjoxNzQ0OTc0NzYxfQ.NeQOinEWvPYNEy8Rvb-60KZvN2dp5pbv9fqfehHWiIc"
         } ],
         "stepsCount" : 0,
         "attachmentsCount" : 0,
@@ -194,7 +194,7 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "response",
-        "value" : "io.restassured.internal.RestAssuredResponseImpl@2c59b9f4"
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@29400267"
       } ],
       "stepsCount" : 1,
       "attachmentsCount" : 0,
@@ -217,7 +217,7 @@
     "value" : "tests.MainPageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testToppingsSectionVisible"
+    "value" : "testSaucesSectionVisible"
   }, {
     "name" : "suite",
     "value" : "tests.MainPageTest"
@@ -226,7 +226,7 @@
     "value" : "MacBook-Pro-Andrej.local"
   }, {
     "name" : "thread",
-    "value" : "96779@MacBook-Pro-Andrej.local.main(1)"
+    "value" : "5193@MacBook-Pro-Andrej.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -247,6 +247,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "639a9c5eaf6868cd.json",
+  "source" : "c24dcc6d4dc7a0de.json",
   "parameterValues" : [ ]
 }

@@ -10,7 +10,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import org.openqa.selenium.WebDriver;
-import pageObject.RegistrationPage;
+import page.objects.RegistrationPage;
 import utils.UserGenerator;
 import utils.UserTestUtils;
 

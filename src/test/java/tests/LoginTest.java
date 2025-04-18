@@ -3,7 +3,7 @@ package tests;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Before;
 import org.junit.Test;
-import pageObject.*;
+import page.objects.*;
 
 import static constants.PageUrls.Auth.LOGIN;
 import static constants.PageUrls.Main.MAIN;

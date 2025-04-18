@@ -1,4 +1,4 @@
-package pageObject;
+package page.objects;
 import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -75,5 +75,11 @@ public abstract class BasePage {
             Thread.currentThread().interrupt();
             throw new RuntimeException("Delay interrupted", e);
         }
+    }
+
+    @Step("Ожидание появления класса '{expectedClass}' в элементе")
+    public void waitForCssClass(WebElement element, String expectedClass) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(DEFAULT_TIMEOUT));
+        wait.until(ExpectedConditions.attributeContains(element, "class", expectedClass));
     }
 }

@@ -4,178 +4,178 @@
   "children" : [ {
     "name" : "MacBook-Pro-Andrej.local",
     "children" : [ {
-      "name" : "96779@MacBook-Pro-Andrej.local.main(1)",
+      "name" : "5193@MacBook-Pro-Andrej.local.main(1)",
       "children" : [ {
-        "name" : "выход по кнопке «Выход» в личном кабинете.",
-        "uid" : "20c52298eacbe120",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
-        "status" : "passed",
-        "time" : {
-          "start" : 1744815287939,
-          "stop" : 1744815294184,
-          "duration" : 6245
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Вход по кнопке «Войти в аккаунт» на главной",
-        "uid" : "8bfba6251ee7353e",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
-        "status" : "passed",
-        "time" : {
-          "start" : 1744815274537,
-          "stop" : 1744815278954,
-          "duration" : 4417
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Негативная регистрация с коротким паролем",
-        "uid" : "5545939b035267af",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
-        "status" : "passed",
-        "time" : {
-          "start" : 1744815265313,
-          "stop" : 1744815268786,
-          "duration" : 3473
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Переход из личного кабинета по клику на конструктор",
-        "uid" : "75e89e18b1ead410",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
-        "status" : "passed",
-        "time" : {
-          "start" : 1744815299427,
-          "stop" : 1744815304726,
-          "duration" : 5299
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Вход через кнопку «Личный кабинет»",
-        "uid" : "8df44352c819ec4c",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
-        "status" : "passed",
-        "time" : {
-          "start" : 1744815283272,
-          "stop" : 1744815287935,
-          "duration" : 4663
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "вход через кнопку в форме восстановления пароля.",
-        "uid" : "aaebb56ea911df29",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
+        "uid" : "1a52bbe441049d2",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
         "status" : "passed",
         "time" : {
-          "start" : 1744815268796,
-          "stop" : 1744815274530,
-          "duration" : 5734
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Вход через кнопку в форме регистрации",
-        "uid" : "ca12797d688dc68c",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
-        "status" : "passed",
-        "time" : {
-          "start" : 1744815278956,
-          "stop" : 1744815283268,
-          "duration" : 4312
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Переход в раздел 'Соусы'",
-        "uid" : "59ed6800875060da",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
-        "status" : "passed",
-        "time" : {
-          "start" : 1744815254771,
-          "stop" : 1744815258547,
-          "duration" : 3776
+          "start" : 1744973573407,
+          "stop" : 1744973577762,
+          "duration" : 4355
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Переход из личного кабинета по клику на логотип 'stellar burgers'",
-        "uid" : "b3c9009dea21e27b",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
+        "uid" : "d0864dbccbc8f16",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
         "status" : "passed",
         "time" : {
-          "start" : 1744815304729,
-          "stop" : 1744815309943,
-          "duration" : 5214
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Переход в раздел 'Начинки'",
-        "uid" : "639a9c5eaf6868cd",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
-        "status" : "passed",
-        "time" : {
-          "start" : 1744815238489,
-          "stop" : 1744815249191,
-          "duration" : 10702
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Переход в раздел 'Булки'",
-        "uid" : "a9fc30cbdadb57ca",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
-        "status" : "passed",
-        "time" : {
-          "start" : 1744815249359,
-          "stop" : 1744815254763,
-          "duration" : 5404
+          "start" : 1744973609511,
+          "stop" : 1744973614549,
+          "duration" : 5038
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Переход в личный кабинет",
-        "uid" : "9179c7367e70b639",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
+        "uid" : "16e55ff169b113c7",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
         "status" : "passed",
         "time" : {
-          "start" : 1744815294189,
-          "stop" : 1744815299422,
-          "duration" : 5233
+          "start" : 1744973598322,
+          "stop" : 1744973604158,
+          "duration" : 5836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку «Личный кабинет»",
+        "uid" : "83654f34bbdd6f46",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744973587088,
+          "stop" : 1744973591996,
+          "duration" : 4908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку в форме регистрации",
+        "uid" : "3ee1e717367e2845",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744973582475,
+          "stop" : 1744973587083,
+          "duration" : 4608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход по кнопке «Войти в аккаунт» на главной",
+        "uid" : "755639da74450397",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744973577765,
+          "stop" : 1744973582472,
+          "duration" : 4707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход в раздел 'Булки'",
+        "uid" : "5e14ba505d1df1d",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744973556090,
+          "stop" : 1744973559929,
+          "duration" : 3839
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Тест успешной регистрации",
-        "uid" : "74ab052265952418",
-        "parentUid" : "03830d15ed561e5bb51874820592c993",
+        "uid" : "231c1da9e6a21004",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
         "status" : "passed",
         "time" : {
-          "start" : 1744815258565,
-          "stop" : 1744815265310,
-          "duration" : 6745
+          "start" : 1744973563548,
+          "stop" : 1744973570185,
+          "duration" : 6637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход из личного кабинета по клику на конструктор",
+        "uid" : "69eb9e826443dd58",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744973604163,
+          "stop" : 1744973609507,
+          "duration" : 5344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "выход по кнопке «Выход» в личном кабинете.",
+        "uid" : "b1d3935515bd32e4",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744973592003,
+          "stop" : 1744973598316,
+          "duration" : 6313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативная регистрация с коротким паролем",
+        "uid" : "45ec14d152c454d4",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744973570193,
+          "stop" : 1744973573395,
+          "duration" : 3202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход в раздел 'Соусы'",
+        "uid" : "c24dcc6d4dc7a0de",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744973559936,
+          "stop" : 1744973563528,
+          "duration" : 3592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход в раздел 'Начинки'",
+        "uid" : "d6d3d2109e293d88",
+        "parentUid" : "3faa4e9015a914669faed995a8ef0aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744973546826,
+          "stop" : 1744973555994,
+          "duration" : 9168
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "03830d15ed561e5bb51874820592c993"
+      "uid" : "3faa4e9015a914669faed995a8ef0aed"
     } ],
     "uid" : "92aae7dac4ed56ee0e86ad9964b99fba"
   } ]

@@ -2,7 +2,7 @@ package tests;
 
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
-import pageObject.MainPage;
+import page.objects.MainPage;
 
 import static org.junit.Assert.assertTrue;
 
@@ -12,6 +12,9 @@ public class MainPageTest extends BaseTest {
     public void testBunsSectionVisible() {
         MainPage mainPage = new MainPage(driver);
         mainPage.openPage();
+
+        mainPage.clickSaucesTab();
+        mainPage.clickBunsTab();
 
         assertTrue("Таб 'Булки' не является активным", mainPage.isBunsTabActive());
         assertTrue("Заголовок 'Булки' не отображается", mainPage.isBunsHeaderVisible());

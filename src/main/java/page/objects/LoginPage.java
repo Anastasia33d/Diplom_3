@@ -1,4 +1,4 @@
-package pageObject;
+package page.objects;
 
 import static constants.PageUrls.Auth.LOGIN;
 import io.qameta.allure.Step;

@@ -1,8 +1,9 @@
-package pageObject;
+package page.objects;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import static constants.PageUrls.Main.MAIN;
 
@@ -24,6 +25,11 @@ public class MainPage extends BasePage {
     @Step("Открытие главной страницы")
     public void openPage() {
         driver.get(MAIN);
+    }
+
+    @Step("Клик по табу «Булки»")
+    public void clickBunsTab() {
+        clickOnElement(bunsTab);
     }
 
     @Step("Клик по табу «Соусы»")
@@ -63,8 +69,10 @@ public class MainPage extends BasePage {
 
     @Step("Проверка, что таб «Булки» активен")
     public boolean isBunsTabActive() {
-        String classes = driver.findElement(bunsTab).getAttribute("class");
-        return classes.contains(CURRENT_TAB_CLASS);
+        WebElement bunsTabElement = driver.findElement(bunsTab);
+        waitForCssClass(bunsTabElement, CURRENT_TAB_CLASS);
+
+        return bunsTabElement.getAttribute("class").contains(CURRENT_TAB_CLASS);
     }
 
     @Step("Проверка, что таб «Соусы» активен")

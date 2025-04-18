@@ -2,9 +2,9 @@ package tests;
 
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
-import pageObject.HeaderPage;
-import pageObject.LoginPage;
-import pageObject.ProfilePage;
+import page.objects.HeaderPage;
+import page.objects.LoginPage;
+import page.objects.ProfilePage;
 
 import static constants.PageUrls.Auth.LOGIN;
 import static constants.PageUrls.Main.MAIN;
